@@ -6,9 +6,18 @@ return {
       picker = {
         sources = {
           explorer = {
+            layout = {
+              layout = {
+                width = 30,
+                min_width = 30,
+              },
+            },
             hidden = true,
             win = {
               list = {
+                wo = {
+                  wrap = true,
+                },
                 keys = {
                   ["<BS>"] = "explorer_up",
                   ["."] = function(picker)
